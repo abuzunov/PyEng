@@ -16,3 +16,6 @@
 """
 
 mac = "AAAA:BBBB:CCCC"
+mac = ("".join(mac.split(':')))
+a = (bin(int(mac, 16)))
+print(a[2::])
