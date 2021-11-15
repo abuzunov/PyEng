@@ -26,12 +26,12 @@
 """
 
 ip = "192.168.3.1"
-oct_list = ip.split(".")
-oct1, oct2, oct3, oct4 = [oct_list[0], oct_list[1], oct_list[2], oct_list[3]]
-oct1 = int(oct1)
-oct2 = int(oct2)
-oct3 = int(oct3)
-oct4 = int(oct4)
+ip_list = ip.split(".")
+oct1, oct2, oct3, oct4 = [
+    int(ip_list[0]),
+    int(ip_list[1]),
+    int(ip_list[2]),
+    int(ip_list[3])]
 
 ip_template = '''
 {0:<8}  {1:<8}  {2:<8}  {3:<8}
