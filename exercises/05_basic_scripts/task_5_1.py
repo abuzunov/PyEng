@@ -45,4 +45,9 @@ london_co = {
         "vlans": "10,20,30",
         "routing": True,
     },
-}
+} 
+
+
+device = input("Введите имя устройства: ")
+
+print(london_co[device])
